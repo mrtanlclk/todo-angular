@@ -1,5 +1,27 @@
 # TodoList
 
+## Getting started
+
+Install JSON Server 
+
+```
+npm install -g json-server
+```
+
+Start JSON Server
+
+```bash
+json-server --watch db.json
+```
+
+Now if you go to [http://localhost:3000/posts/1](http://localhost:3000/posts/1), you'll get
+
+```json
+{ "id": 1, "taskName": "..." }
+```
+
+# TodoList
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
 ## Development server
